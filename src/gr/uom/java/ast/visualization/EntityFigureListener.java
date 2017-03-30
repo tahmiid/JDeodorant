@@ -67,7 +67,7 @@ public class EntityFigureListener implements MouseMotionListener{
 
 		List<JConnection> connections = figure.getOutgoingConnections();
 		for(JConnection connection: connections){
-			connection.setAlpha(null);
+			connection.setAlpha(0);
 			connection.setLineWidth(1);
 			Label l = connection.getLabel();
 

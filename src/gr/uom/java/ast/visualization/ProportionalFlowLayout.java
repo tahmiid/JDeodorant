@@ -13,8 +13,8 @@ public class ProportionalFlowLayout extends FlowLayout {
 		setStretchMinorAxis(false);
 		setMinorSpacing(widthSpacing);
 		setMajorSpacing(heightSpacing);
-		setMinorAlignment(FlowLayout.ALIGN_TOPLEFT);
-		setMajorAlignment(FlowLayout.ALIGN_TOPLEFT);
+		setMinorAlignment(FlowLayout.ALIGN_LEFTTOP);
+		setMajorAlignment(FlowLayout.ALIGN_LEFTTOP);
 		this.scale= scale;
 	}
 
